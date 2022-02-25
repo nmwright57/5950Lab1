@@ -11,7 +11,7 @@
 
 
 /usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.3.1.jar \
--file ../../5950Lab1/mapper-2.py -mapper ../../5950Lab1/mapper-2.py \
+-file ../../5950Lab1/mapper2.py -mapper ../../5950Lab1/mapper2.py \
 -file ../../5950Lab1/reducer-2.py -reducer ../../5950Lab1/reducer-2.py \
 -input /5950Lab1/output/* -output /5950Lab1-2/output/
 
